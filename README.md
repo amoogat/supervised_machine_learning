@@ -1,5 +1,5 @@
-# Supervised Machine Learning
-This project splits data into test and train data in order to assess success rates of supervised machine learning algorithms. These algorithms include random oversampling, SMOTE oversampling, undersampling and SMOTEENN (over and undersampling) to gauge the varying ability for their prediction success. The algorithms all use multiple factor linear regression on the data set columns (eg. loan amount and loan type) to get an approximate fit for loan success; it then tests this model on the test data to gauge effectiveness.
+# Loan Analysis Supervised Machine Learning
+This project tries to determine whether a loan is high risk or low risk based on several factors. First, the data was split into test and train data in order to back-test success rates of supervised machine learning algorithms. These algorithms include random oversampling, SMOTE oversampling, undersampling and SMOTEENN (over and undersampling) to gauge the varying ability for their prediction success. The algorithms all use multiple factor linear regression on the data set columns (eg. loan amount and loan type) to get an approximate fit for loan success; it then tests this model on the test data to gauge effectiveness.
 
 ## Results
 As can be seen in the challenge.ipynb classification reports (4 total: 1 for each model), the f1 score is highest in the **oversampling approaches**. The f1 score is a measure of a test's accuracy, taking the harmonic mean of precision and recall. [source](https://deepai.org/machine-learning-glossary-and-terms/f-score) 
